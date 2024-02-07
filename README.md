@@ -1,6 +1,6 @@
 ## Hosting
 
-The page is hosted [here](https://clinquant-youtiao-3edae5.netlify.app/).
+The page is hosted [here](https://uchman005.github.io/graphql/).
 
 If you want to check the offline version instead I recommend using the "Live Server" extension.
 
