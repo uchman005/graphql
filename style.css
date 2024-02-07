@@ -1,0 +1,98 @@
+
+#result{
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    line-height: 2;
+}
+#ratio{
+    color: white;
+    font-size: 30px;
+}
+path {
+    fill: none;
+    stroke: white;
+}
+svg .dot {
+    fill: white;
+}
+
+
+.loginContainer, .authContainer{
+    background-color: #422626;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.authContainer{
+    height: auto;
+}
+#userData{
+    margin-bottom: 50px;
+}
+h1,h2, p {
+    text-align: center;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10%;
+}
+input:focus{
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid #007bff;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 40%;
+}
+button#logoutBtn{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10%;
+    width: 20vw;
+    margin: 50px 30px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+button#logoutBtn:hover {
+    background-color: #0056b3;
+    color: rgb(235, 170, 170);
+}
+#myChart{
+    width: 100%;
+    max-width: 700px;
+    background-color: whitesmoke;
+}
+#error {
+    color: red;
+}
+.hide{
+    display: none;
+    visibility: hidden;
+}

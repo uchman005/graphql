@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+    <div class="loginContainer">
+        <h2>Login</h2>
+        <p>Login to see your Kood graphs</p>
+        <form id="loginForm">
+            <input type="text" id="usernameEmail" placeholder="Username or Email" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit" id="loginBtn">Log In</button>
+            <p id="error"></p>
+        </form>
+
+    </div>
+    <div class="authContainer hide">
+        <button type="button" id="logoutBtn">Log Out</button>
+        <div id="userData"></div>
+        <canvas id="audits"></canvas>
+        <canvas id="projects"></canvas>
+        <div id="graph-container"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+    </script>
+    <script src="./lib.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
